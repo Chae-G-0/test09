@@ -1,9 +1,17 @@
 const MENU = [
     {
-        id:1,
-        content: "menu01"
-    }
-]
+        id: 1,
+        content: "menu01",
+    },
+    {
+        id: 2,
+        content: "menu02",
+    },
+    {
+        id: 3,
+        content: "menu03",
+    },
+];
 
 const Header = () => {
     return (
@@ -12,9 +20,9 @@ const Header = () => {
                 <a href="">LOGO</a>
             </h1>
             <nav className="GNB">
-                <ul>
+                {/* <ul>{MENU.map((it, idx)=>(
 
-                </ul>
+                ))}</ul> */}
             </nav>
         </header>
     );
