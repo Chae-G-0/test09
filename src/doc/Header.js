@@ -1,3 +1,10 @@
+const MENU = [
+    {
+        id:1,
+        content: "menu01"
+    }
+]
+
 const Header = () => {
     return (
         <header className="Header">
@@ -6,7 +13,7 @@ const Header = () => {
             </h1>
             <nav className="GNB">
                 <ul>
-                    
+
                 </ul>
             </nav>
         </header>
