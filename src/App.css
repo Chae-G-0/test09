@@ -1,0 +1,65 @@
+.inner {
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.Header {
+    line-height: 100px;
+    border-bottom: 1px solid #ddd;
+}
+
+.Header .inner {
+    justify-content: space-between;
+}
+
+.Header h1 a {
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    font-size: 0;
+    background: url(../public/img/logo.svg) no-repeat;
+    vertical-align: middle;
+}
+
+.Header .Gnb ul {
+    display: flex;
+    gap: 30px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #333;
+}
+
+.MainVisual figure {
+    position: relative;
+    height: 650px;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: 100% auto;
+}
+
+.MainVisual .itm01 {
+    background-image: url(../public/img/mainvisual01.jpg);
+}
+
+.MainVisual .itm02 {
+    background-image: url(../public/img/mainvisual02.jpg);
+}
+
+.MainVisual .itm03 {
+    background-image: url(../public/img/mainvisual03.jpg);
+}
+
+.MainVisual .itm04 {
+    background-image: url(../public/img/mainvisual04.jpg);
+}
+
+.MainVisual .itm05 {
+    background-image: url(../public/img/mainvisual05.jpg);
+}
+
+.MainVisual h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+}

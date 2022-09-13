@@ -1,10 +1,12 @@
 const Main = () => {
     return (
         <main>
-            <section className="">01</section>
-            <section>02</section>
-            <section>03</section>
-            <section>04</section>
+            <section>
+                se01
+            </section>
+            <section>se02</section>
+            <section>se03</section>
+            <section>se04</section>
         </main>
     )
 }

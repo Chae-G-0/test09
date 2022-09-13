@@ -1,77 +1,53 @@
 const MENU = [
     {
         id: 1,
-        content: "menu01",
-        link: "/1",
-        submenu: [
-            {
-                content: "smenu01",
-                link: '/1'
-            },
-            {
-                content: "smenu01",
-                link: '/1'
-            },
-            {
-                content: "smenu01",
-                link: '/1'
-            },
-        ]
+        menu: "NEW",
+        link: "/",
     },
     {
         id: 2,
-        content: "menu02",
-        link: "/2",
-        submenu: [
-            {
-                content: "smenu02",
-                link: '/1'
-            },
-            {
-                content: "smenu02",
-                link: '/1'
-            },
-            {
-                content: "smenu02",
-                link: '/1'
-            },
-        ]
+        menu: "OLDSKOOL",
+        link: "/",
     },
     {
         id: 3,
-        content: "menu03",
-        link: "/3",
-        submenu: [
-            {
-                content: "smenu03",
-                link: '/1'
-            },
-            {
-                content: "smenu03",
-                link: '/1'
-            },
-            {
-                content: "smenu03",
-                link: '/1'
-            },
-        ]
+        menu: "AUTHENTIC",
+        link: "/",
     },
-
+    {
+        id: 4,
+        menu: "SLIP-ON",
+        link: "/",
+    },
+    {
+        id: 5,
+        menu: "ERA",
+        link: "/",
+    },
+    {
+        id: 6,
+        menu: "CLASSIC",
+        link: "/",
+    },
 ];
 
 const Header = () => {
     return (
         <header className="Header">
-            <h1>
-                <a href="">LOGO</a>
-            </h1>
-            <nav className="GNB">
-                <ul>{MENU.map((it, idx)=>(
-                    <li>
-
-                    </li>
-                ))}</ul>
-            </nav>
+            <div className="inner">
+                <h1>
+                    <a href=""></a>
+                </h1>
+                <nav className="Gnb">
+                    <ul>
+                        {MENU.map((it, idx) => (
+                            <li key={idx}>
+                                <a href={it.link}>{it.menu}</a>
+                            </li>
+                        ))}
+                    </ul>
+                </nav>
+            </div>
         </header>
     );
 };

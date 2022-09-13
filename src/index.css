@@ -7,8 +7,8 @@ font
 
 --------------------------------------
 */
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
-@import url('https://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css');
+@import url(https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
+@import url("https://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css");
 
 /*
 -------------------------------------
@@ -32,7 +32,7 @@ html {
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Noto Sans KR';
+    font-family: "Noto Sans KR";
     font-weight: normal;
     line-height: 1;
     letter-spacing: -0.025em;
@@ -87,7 +87,7 @@ input,
 textarea,
 button {
     font-size: inherit;
-    font-family: 'Noto Sans KR';
+    font-family: "Noto Sans KR";
     font-weight: inherit;
     margin: 0;
 }
@@ -108,7 +108,6 @@ em,
 i {
     font-style: normal;
 }
-
 
 hr {
     margin: 0;
@@ -149,7 +148,7 @@ textarea {
     margin: -1px;
     overflow: hidden;
     clip: rect(0, 0, 0, 0);
-    border: 0
+    border: 0;
 }
 
 /* Skip to content */
