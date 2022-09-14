@@ -3,11 +3,11 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 
 const SLIDE = [
-    { id: 1, content: "CLASSIC" },
-    { id: 2, content: "OLDSKOOL" },
-    { id: 3, content: "AUTHENTIC" },
-    { id: 4, content: "SLIP-ON" },
-    { id: 5, content: "ERA" },
+    { id: 1, content: "AUTHENTIC" },
+    { id: 2, content: "ERA" },
+    { id: 3, content: "OLDSKOOL" },
+    { id: 4, content: "CLASSIC" },
+    { id: 5, content: "SLIP-ON" },
 ];
 
 const MainVisual = () => {
