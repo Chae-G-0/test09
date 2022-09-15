@@ -3,11 +3,11 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 
 const SLIDE = [
-    { id: 1, content: "AUTHENTIC" },
+    { id: 1, content: "CLASSIC" },
     { id: 2, content: "ERA" },
     { id: 3, content: "OLDSKOOL" },
-    { id: 4, content: "CLASSIC" },
-    { id: 5, content: "SLIP-ON" },
+    { id: 4, content: "SLIP-ON" },
+    { id: 5, content: "AUTHENTIC" },
 ];
 
 const MainVisual = () => {
@@ -35,6 +35,18 @@ const MainVisual = () => {
                     );
                 })}
             </Slider>
+            <div className="arrows">
+                
+            </div>
+            <ul className="slideTab">
+                {SLIDE.map((dots, idx) => {
+                    return (
+                        <li key={dots.id} className={idx === IDX ? " on" : ""} onClick={() => mainSlide.current.slickGoTo(idx)}>
+                            <img src={process.env.PUBLIC_URL + "/img/main0" + dots.id + ".png"} alt="" />
+                        </li>
+                    );
+                })}
+            </ul>
         </section>
     );
 };

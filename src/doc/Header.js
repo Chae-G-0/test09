@@ -36,7 +36,7 @@ const Header = () => {
         <header className="Header">
             <div className="inner">
                 <h1>
-                    <a href=""></a>
+                    <a href="/"></a>
                 </h1>
                 <nav className="Gnb">
                     <ul>
