@@ -19,8 +19,8 @@ const MainVisual = () => {
     const setting = {
         arrows: false,
         afterChange: (index) => setIDX(index),
-        autoplay: true,
-        autoplaySpeed: 5000,
+        autoplay: 1,
+        autoplaySpeed: 3000,
     };
     return (
         <section className="MainVisual">
