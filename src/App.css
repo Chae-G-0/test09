@@ -222,3 +222,12 @@ h2 {
     font-size: 13px;
     color: #ddd;
 }
+
+.sns {
+    font-size: 19px;
+    color: #ddd;
+}
+
+.sns i {
+    padding: 0 5px;
+}

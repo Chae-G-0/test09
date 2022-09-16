@@ -1,7 +1,7 @@
 const CONTENT = [
-    { id: 1, title: "STORE", dec: "", link: "/" },
-    { id: 2, title: "WOMEN", dec: "", link: "/" },
-    { id: 3, title: "MEN", dec: "", link: "/" },
+    { id: 1, title: "STORE", dec: "", link: "#!" },
+    { id: 2, title: "WOMEN", dec: "", link: "#!" },
+    { id: 3, title: "MEN", dec: "", link: "#!" },
 ];
 
 const MainContent = () => {
