@@ -4,7 +4,6 @@ import Footer from "./doc/Footer";
 import MainVisual from "./doc/MainVisual";
 import MainContent from "./doc/MainContent";
 import MainBest from "./doc/MainBest";
-import MainStyle from "./doc/MainStyle";
 
 function App() {
     return (
@@ -14,7 +13,6 @@ function App() {
                 <MainVisual />
                 <MainContent />
                 <MainBest />
-                <MainStyle/>
             </main>
             <Footer />
         </>

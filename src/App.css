@@ -194,21 +194,31 @@ h2 {
     color: #c9192e;
 }
 
+.MainBest .tit:hover {
+    text-decoration: underline;
+}
+
 .Footer {
-    padding: 100px;
+    padding: 50px;
     background: #000;
 }
 
-.Footer h2 a {
-    display: inline-block;
-    width: 100px;
-    height: 50px;
-    font-size: 0;
-    background: url(../public/img/logo.svg) no-repeat;
-    vertical-align: middle;
+.Footer .inner {
+    justify-content: space-between;
 }
 
-.Footer dd dl {
-    font-size: 21px;
+.Footer ul {
+    display: flex;
+    gap: 30px;
+}
+
+.Footer ul li {
+    font-size: 15px;
+    font-weight: 500;
     color: #fff;
+}
+
+.Footer .right {
+    font-size: 13px;
+    color: #ddd;
 }
